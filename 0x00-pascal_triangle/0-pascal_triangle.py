@@ -9,9 +9,9 @@ def pascal_triangle(num_rows):
         triangle.append(row)
     return triangle
 
-#def print_triangle(triangle):
-#    for row in triangle:
- #       print(" ".join(map(str, row)))
+def print_triangle(triangle):
+    for row in triangle:
+       print(" ".join(map(str, row)))
 
 # Example usage
 #num_rows = 5
